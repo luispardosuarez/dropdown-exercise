@@ -1,18 +1,21 @@
 body {
     background-color: rgba(0, 0, 0, 0.744);  
+    font-family: 'Jost', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 #description {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
     margin-top: 3%;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
 }
 
 h1 {
     color: #b2aeae;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #logo {
@@ -24,8 +27,7 @@ h1 {
 
 #logo:hover {
     border-radius: 50%;
-
-    box-shadow: 0px 0px 3px 3px #f80808c0;
+    box-shadow: 0px 0px 3px 3px  #b2aeae;
 
 }
 
@@ -41,15 +43,65 @@ h1 {
 
 .record {
     background-color: #8279796d;
-    width: 75vw;
-    margin-left: 11.5%;
+    width: 85vw;
+    margin-left: 6.5%;
     margin-bottom: 5%;
 }
 
 .record:hover {
-    box-shadow: 0px 0px 3px 3px #f80808c0;
+    box-shadow: 0px 0px 3px 3px #b2aeae;
 
 }
+
+.dropdown {
+    background: #b2aeae;
+    color: #fff;
+    text-decoration:underline; 
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    width: 370px;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 27%;
+  }
+  
+  .dropdown-menu {
+    align-items: center;
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    
+  }
+  
+  .dropdown-menu {
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  li {
+    font-size:  0.85rem;
+    line-height: 1;
+    margin-bottom: 2%;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    background: #b2aeae;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    width: 100%;
+  }
 
 
 .record-description {
