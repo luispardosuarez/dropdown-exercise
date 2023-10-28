@@ -1,3 +1,5 @@
+@import url("./responsive-style.css");
+
 body {
     background-color: rgba(0, 0, 0, 0.744);  
     font-family: 'Jost', sans-serif;
@@ -18,10 +20,13 @@ h1 {
 }
 
 #logo {
-    height: 10vw;
     opacity: 65%;
     border-radius: 50%;
     animation: girar 15s linear infinite;
+}
+
+img  {
+    width: 10%;
 }
 
 #logo:hover {
@@ -42,8 +47,8 @@ h1 {
 
 .record {
     background-color: #8279796d;
-    width: 85vw;
-    margin-left: 6.5%;
+    width: 87%;
+    margin-left: 7%;
     margin-bottom: 5%;
 }
 
@@ -76,8 +81,7 @@ h1 {
     opacity: 0;
     text-align: center;
     top: 0;
-    visibility: hidden;
-    
+    visibility: hidden; 
   }
   
   .dropdown-menu {
@@ -106,8 +110,9 @@ h1 {
     flex-direction: row;
 }
 
-img {
-    height: 25vw;
+#record-img, #record-img2, #record-img3, #record-img4 {
+    width: 30%;
+    height: 30%;
 }
 
 .record-description-textarea {
@@ -130,4 +135,4 @@ p {
 }
 
 
-@import url(/css/1242px-style.css);
+
