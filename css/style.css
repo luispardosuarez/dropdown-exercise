@@ -4,7 +4,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-
 #description {
     display: flex;
     align-items: center;
@@ -56,16 +55,15 @@ h1 {
 .dropdown {
     background: #b2aeae;
     color: #fff;
-    text-decoration:underline; 
+    text-decoration: underline;
     cursor: pointer;
     height: 50px;
     line-height: 50px;
     position: relative;
     width: 370px;
     text-align: center;
-    margin-top: 1.5%;
-    margin-left: 27%;
-  }
+    margin: auto;
+}
   
   .dropdown-menu {
     align-items: center;
@@ -103,7 +101,6 @@ h1 {
     width: 100%;
   }
 
-
 .record-description {
     display: flex;
     flex-direction: row;
@@ -116,7 +113,6 @@ img {
 .record-description-textarea {
     display: flex;
     flex-direction: column;
-
 }
 
 h2, p {
@@ -133,3 +129,5 @@ p {
     margin-right: 5%;
 }
 
+
+@import url(/css/1242px-style.css);
